@@ -1,0 +1,114 @@
+/*cabeçalho*/
+
+
+/*Conteudo principal*/
+
+
+/*banner*/
+
+#section-banners img{
+   height: 70vh;
+   width: 100%;
+}
+
+/*Produtos vendidos*/
+#section-vendidos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2vh;
+   
+}
+.cards img{
+    width: 100%;
+    height: 40vh;
+}
+.card{
+
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.card{
+    height: 100%;
+    transition: 1s;
+    
+}
+.card:hover{
+   box-shadow: 1px 1px 1rem black;
+    
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+.cards h5{
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.preco{
+    color: red;
+    font-weight:700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+
+
+
+
+/*Rodapé*/
+footer{
+    text-align: center;
+}
+footer p{
+    font-weight: bolder;
+    padding: 10px;
+}
+
+/*Botão Voltar topo*/
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+
+
+
+}
+
+/* página de login  */
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1{
+    text-align: center;
+} 
+#section-login input {
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+}
+
+
